@@ -4,6 +4,11 @@ import java.util.HashMap;
 
 public class Frequence {
 
+    public static void main(String[] args){
+        int[] a = {1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 7};
+        frekvensFordeling(a);
+    }
+
     //Method developed with Hamza Amir Aftab and Nicklas Risan Dahl
     //Finds frequence of integers in an integer array. Time complexity: O(n)
 	public static void frekvensFordeling(int[] a){
